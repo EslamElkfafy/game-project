@@ -43,7 +43,7 @@ while run:
     glRotatef(4, 3, -10, -45)
 
     glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT)
-    CubeMesh()
+    ChairMesh()
     pygame.display.flip()
     pygame.time.wait(10)
 pygame.quit()

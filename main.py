@@ -3,10 +3,6 @@ from OpenGL.GLU import *
 from OpenGL.GLUT import *
 from constants import *
 from math import *
-angle1 = 0
-angle2 = 0
-step = [.001, .001, .001, .001, .001]
-positions = [0, .1, .2, .3, .4]
 
 
 def init_projection_plus_camera():
